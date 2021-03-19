@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3632f584-6adf-4ef4-86e7-ef3c72c1371c" name="Default" comment="" />
+    <list default="true" id="3632f584-6adf-4ef4-86e7-ef3c72c1371c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/James_PC.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicapi/models.py" afterPath="$PROJECT_DIR$/musicapi/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicapi/tests.py" afterPath="$PROJECT_DIR$/musicapi/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicapi/views.py" afterPath="$PROJECT_DIR$/musicapi/views.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +26,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/musicapi/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="100">
+              <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="19" />
               <folding>
                 <element signature="e#0#291#0" expanded="true" />
               </folding>
@@ -27,22 +35,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/musicapi/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="100" column="42" lean-forward="false" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
+            <state relative-caret-position="-54">
+              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
-                <element signature="e#399#2043#0" expanded="false" />
-                <element signature="e#5157#7001#0" expanded="false" />
-                <element signature="e#7078#7145#0" expanded="false" />
-                <element signature="e#7215#7282#0" expanded="false" />
-                <element signature="e#7325#7398#0" expanded="false" />
-                <element signature="e#7471#7544#0" expanded="false" />
-                <element signature="e#7589#7666#0" expanded="false" />
-                <element signature="e#7741#7818#0" expanded="false" />
+                <element signature="e#399#1952#0" expanded="false" />
+                <element signature="e#2022#3670#0" expanded="false" />
+                <element signature="e#3744#4960#0" expanded="false" />
+                <element signature="e#5042#6890#0" expanded="false" />
+                <element signature="e#6967#7034#0" expanded="false" />
+                <element signature="e#7104#7171#0" expanded="false" />
+                <element signature="e#7214#7287#0" expanded="false" />
+                <element signature="e#7360#7433#0" expanded="false" />
+                <element signature="e#7478#7555#0" expanded="false" />
+                <element signature="e#7630#7707#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/music/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -50,7 +70,7 @@
       <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/musicapi/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="355">
               <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="56" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -62,19 +82,26 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/musicapi/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            <state relative-caret-position="-119">
+              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/musicapi/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="236">
+              <caret line="111" column="70" lean-forward="false" selection-start-line="111" selection-start-column="70" selection-end-line="111" selection-end-column="70" />
+              <folding>
+                <element signature="e#0#73#0" expanded="true" />
+                <element signature="e#432#1307#0" expanded="false" />
+                <element signature="e#1345#3982#0" expanded="false" />
+                <element signature="e#2059#2958#0" expanded="false" />
+                <element signature="e#3004#3982#0" expanded="false" />
+                <element signature="e#4021#5454#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,17 +115,25 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/music/settings.py" />
         <option value="$PROJECT_DIR$/musicapi/admin.py" />
-        <option value="$PROJECT_DIR$/musicapi/tests.py" />
         <option value="$PROJECT_DIR$/music/urls.py" />
-        <option value="$PROJECT_DIR$/musicapi/models.py" />
         <option value="$PROJECT_DIR$/musicapi/urls.py" />
         <option value="$PROJECT_DIR$/musicapi/serializers.py" />
+        <option value="$PROJECT_DIR$/musicapi/models.py" />
         <option value="$PROJECT_DIR$/musicapi/views.py" />
+        <option value="$PROJECT_DIR$/musicapi/tests.py" />
       </list>
     </option>
   </component>
@@ -114,6 +149,7 @@
     <option name="width" value="1382" />
     <option name="height" value="784" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
@@ -129,6 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,9 +248,22 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="music">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT=".idea">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -446,29 +496,39 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14674735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32411674" sideWeight="0.52118003" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39324117" sideWeight="0.49394855" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@music" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32411674" sideWeight="0.47881997" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.6323752" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19815668" sideWeight="0.4969743" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1603631" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@music" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32411674" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -485,6 +545,148 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/musicapi/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicapi/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" column="22" lean-forward="false" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#399#1952#0" expanded="false" />
+            <element signature="e#2022#3670#0" expanded="false" />
+            <element signature="e#3744#4960#0" expanded="false" />
+            <element signature="e#5042#6890#0" expanded="false" />
+            <element signature="e#6967#7034#0" expanded="false" />
+            <element signature="e#7104#7171#0" expanded="false" />
+            <element signature="e#7214#7287#0" expanded="false" />
+            <element signature="e#7360#7433#0" expanded="false" />
+            <element signature="e#7478#7555#0" expanded="false" />
+            <element signature="e#7630#7707#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicapi/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicapi/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicapi/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+            <element signature="e#432#1307#0" expanded="false" />
+            <element signature="e#1345#3982#0" expanded="false" />
+            <element signature="e#2059#2958#0" expanded="false" />
+            <element signature="e#3004#3982#0" expanded="false" />
+            <element signature="e#4021#5454#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicapi/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicapi/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" column="22" lean-forward="true" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#399#1952#0" expanded="false" />
+            <element signature="e#2022#3670#0" expanded="false" />
+            <element signature="e#3744#4960#0" expanded="false" />
+            <element signature="e#5042#6890#0" expanded="false" />
+            <element signature="e#6967#7034#0" expanded="false" />
+            <element signature="e#7104#7171#0" expanded="false" />
+            <element signature="e#7214#7287#0" expanded="false" />
+            <element signature="e#7360#7433#0" expanded="false" />
+            <element signature="e#7478#7555#0" expanded="false" />
+            <element signature="e#7630#7707#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicapi/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicapi/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicapi/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+            <element signature="e#432#1307#0" expanded="false" />
+            <element signature="e#1345#3982#0" expanded="false" />
+            <element signature="e#2059#2958#0" expanded="false" />
+            <element signature="e#3004#3982#0" expanded="false" />
+            <element signature="e#4021#5454#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/musicapi/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -517,7 +719,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+            <element signature="e#432#1307#0" expanded="false" />
+            <element signature="e#1345#3982#0" expanded="false" />
+            <element signature="e#2059#2958#0" expanded="false" />
+            <element signature="e#3004#3982#0" expanded="false" />
+            <element signature="e#4021#5454#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -527,14 +736,16 @@
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
-            <element signature="e#399#2043#0" expanded="false" />
-            <element signature="e#5157#7001#0" expanded="false" />
-            <element signature="e#7078#7145#0" expanded="false" />
-            <element signature="e#7215#7282#0" expanded="false" />
-            <element signature="e#7325#7398#0" expanded="false" />
-            <element signature="e#7471#7544#0" expanded="false" />
-            <element signature="e#7589#7666#0" expanded="false" />
-            <element signature="e#7741#7818#0" expanded="false" />
+            <element signature="e#399#1952#0" expanded="false" />
+            <element signature="e#2022#3670#0" expanded="false" />
+            <element signature="e#3744#4960#0" expanded="false" />
+            <element signature="e#5042#6890#0" expanded="false" />
+            <element signature="e#6967#7034#0" expanded="false" />
+            <element signature="e#7104#7171#0" expanded="false" />
+            <element signature="e#7214#7287#0" expanded="false" />
+            <element signature="e#7360#7433#0" expanded="false" />
+            <element signature="e#7478#7555#0" expanded="false" />
+            <element signature="e#7630#7707#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -543,7 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -563,14 +773,16 @@
           <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
-            <element signature="e#399#2043#0" expanded="false" />
-            <element signature="e#5157#7001#0" expanded="false" />
-            <element signature="e#7078#7145#0" expanded="false" />
-            <element signature="e#7215#7282#0" expanded="false" />
-            <element signature="e#7325#7398#0" expanded="false" />
-            <element signature="e#7471#7544#0" expanded="false" />
-            <element signature="e#7589#7666#0" expanded="false" />
-            <element signature="e#7741#7818#0" expanded="false" />
+            <element signature="e#399#1952#0" expanded="false" />
+            <element signature="e#2022#3670#0" expanded="false" />
+            <element signature="e#3744#4960#0" expanded="false" />
+            <element signature="e#5042#6890#0" expanded="false" />
+            <element signature="e#6967#7034#0" expanded="false" />
+            <element signature="e#7104#7171#0" expanded="false" />
+            <element signature="e#7214#7287#0" expanded="false" />
+            <element signature="e#7360#7433#0" expanded="false" />
+            <element signature="e#7478#7555#0" expanded="false" />
+            <element signature="e#7630#7707#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -579,7 +791,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+            <element signature="e#432#1307#0" expanded="false" />
+            <element signature="e#1345#3982#0" expanded="false" />
+            <element signature="e#2059#2958#0" expanded="false" />
+            <element signature="e#3004#3982#0" expanded="false" />
+            <element signature="e#4021#5454#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -587,7 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -607,14 +825,16 @@
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
-            <element signature="e#399#2043#0" expanded="false" />
-            <element signature="e#5157#7001#0" expanded="false" />
-            <element signature="e#7078#7145#0" expanded="false" />
-            <element signature="e#7215#7282#0" expanded="false" />
-            <element signature="e#7325#7398#0" expanded="false" />
-            <element signature="e#7471#7544#0" expanded="false" />
-            <element signature="e#7589#7666#0" expanded="false" />
-            <element signature="e#7741#7818#0" expanded="false" />
+            <element signature="e#399#1952#0" expanded="false" />
+            <element signature="e#2022#3670#0" expanded="false" />
+            <element signature="e#3744#4960#0" expanded="false" />
+            <element signature="e#5042#6890#0" expanded="false" />
+            <element signature="e#6967#7034#0" expanded="false" />
+            <element signature="e#7104#7171#0" expanded="false" />
+            <element signature="e#7214#7287#0" expanded="false" />
+            <element signature="e#7360#7433#0" expanded="false" />
+            <element signature="e#7478#7555#0" expanded="false" />
+            <element signature="e#7630#7707#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -648,7 +868,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="49" lean-forward="true" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-          <folding />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+            <element signature="e#432#1307#0" expanded="false" />
+            <element signature="e#1345#3982#0" expanded="false" />
+            <element signature="e#2059#2958#0" expanded="false" />
+            <element signature="e#3004#3982#0" expanded="false" />
+            <element signature="e#4021#5454#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -656,7 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,14 +927,16 @@
           <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
-            <element signature="e#399#2043#0" expanded="false" />
-            <element signature="e#5157#7001#0" expanded="false" />
-            <element signature="e#7078#7145#0" expanded="false" />
-            <element signature="e#7215#7282#0" expanded="false" />
-            <element signature="e#7325#7398#0" expanded="false" />
-            <element signature="e#7471#7544#0" expanded="false" />
-            <element signature="e#7589#7666#0" expanded="false" />
-            <element signature="e#7741#7818#0" expanded="false" />
+            <element signature="e#399#1952#0" expanded="false" />
+            <element signature="e#2022#3670#0" expanded="false" />
+            <element signature="e#3744#4960#0" expanded="false" />
+            <element signature="e#5042#6890#0" expanded="false" />
+            <element signature="e#6967#7034#0" expanded="false" />
+            <element signature="e#7104#7171#0" expanded="false" />
+            <element signature="e#7214#7287#0" expanded="false" />
+            <element signature="e#7360#7433#0" expanded="false" />
+            <element signature="e#7478#7555#0" expanded="false" />
+            <element signature="e#7630#7707#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -717,7 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,14 +989,16 @@
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
-            <element signature="e#399#2043#0" expanded="false" />
-            <element signature="e#5157#7001#0" expanded="false" />
-            <element signature="e#7078#7145#0" expanded="false" />
-            <element signature="e#7215#7282#0" expanded="false" />
-            <element signature="e#7325#7398#0" expanded="false" />
-            <element signature="e#7471#7544#0" expanded="false" />
-            <element signature="e#7589#7666#0" expanded="false" />
-            <element signature="e#7741#7818#0" expanded="false" />
+            <element signature="e#399#1952#0" expanded="false" />
+            <element signature="e#2022#3670#0" expanded="false" />
+            <element signature="e#3744#4960#0" expanded="false" />
+            <element signature="e#5042#6890#0" expanded="false" />
+            <element signature="e#6967#7034#0" expanded="false" />
+            <element signature="e#7104#7171#0" expanded="false" />
+            <element signature="e#7214#7287#0" expanded="false" />
+            <element signature="e#7360#7433#0" expanded="false" />
+            <element signature="e#7478#7555#0" expanded="false" />
+            <element signature="e#7630#7707#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -778,7 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,21 +1035,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicapi/tests.py">
+    <entry file="file://$PROJECT_DIR$/musicapi/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-119">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/musicapi/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="355">
           <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="56" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
@@ -829,18 +1056,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicapi/models.py">
+    <entry file="file://$PROJECT_DIR$/music/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/musicapi/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="100">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="19" />
           <folding>
             <element signature="e#0#291#0" expanded="true" />
           </folding>
@@ -849,18 +1076,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/musicapi/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="100" column="42" lean-forward="false" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
+        <state relative-caret-position="-54">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
-            <element signature="e#399#2043#0" expanded="false" />
-            <element signature="e#5157#7001#0" expanded="false" />
-            <element signature="e#7078#7145#0" expanded="false" />
-            <element signature="e#7215#7282#0" expanded="false" />
-            <element signature="e#7325#7398#0" expanded="false" />
-            <element signature="e#7471#7544#0" expanded="false" />
-            <element signature="e#7589#7666#0" expanded="false" />
-            <element signature="e#7741#7818#0" expanded="false" />
+            <element signature="e#399#1952#0" expanded="false" />
+            <element signature="e#2022#3670#0" expanded="false" />
+            <element signature="e#3744#4960#0" expanded="false" />
+            <element signature="e#5042#6890#0" expanded="false" />
+            <element signature="e#6967#7034#0" expanded="false" />
+            <element signature="e#7104#7171#0" expanded="false" />
+            <element signature="e#7214#7287#0" expanded="false" />
+            <element signature="e#7360#7433#0" expanded="false" />
+            <element signature="e#7478#7555#0" expanded="false" />
+            <element signature="e#7630#7707#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicapi/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="111" column="70" lean-forward="false" selection-start-line="111" selection-start-column="70" selection-end-line="111" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+            <element signature="e#432#1307#0" expanded="false" />
+            <element signature="e#1345#3982#0" expanded="false" />
+            <element signature="e#2059#2958#0" expanded="false" />
+            <element signature="e#3004#3982#0" expanded="false" />
+            <element signature="e#4021#5454#0" expanded="false" />
           </folding>
         </state>
       </provider>

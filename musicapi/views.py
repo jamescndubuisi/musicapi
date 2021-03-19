@@ -17,11 +17,11 @@ class CreateFile(APIView):
         serializer = FileSerializer(data=data)
         if serializer.is_valid():
             filetype = request.data.get("filetype")
-            print(filetype)
+
             if filetype == "Song":
                 serializer = SongSerializer(data=data)
                 if serializer.is_valid():
-                    # print("Serializer {}".format(serializers))
+
                     serializer.save()
                     return Response(serializer.data, status=status.HTTP_201_CREATED)
                 else:
@@ -52,7 +52,7 @@ def update_file(request, file, identifier):
     if file == "Song":
         try:
             song = Song.objects.get(pk=identifier)
-            print(song)
+
         except Song.DoesNotExist:
             return Response({"message": "Audio does not exist"}, status=status.HTTP_404_NOT_FOUND)
 
@@ -63,12 +63,13 @@ def update_file(request, file, identifier):
             return Response(serializer.errors, status=status.HTTP_404_NOT_FOUND)
 
     elif file == "AudioBook":
+
         try:
             audiobook = AudioBook.objects.get(pk=identifier)
         except AudioBook.DoesNotExist:
             return Response({"message": "Audio does not exist"}, status=status.HTTP_404_NOT_FOUND)
 
-        serializer = SongSerializer(instance=audiobook, data=request.data)
+        serializer = AudioBookSerializer(audiobook, data=request.data)
         if serializer.is_valid():
             serializer.save()
         else:
@@ -116,7 +117,7 @@ def delete_file(request, file, identifier):
 
     if file == "AudioBook":
         try:
-            audiobook= PodCast.objects.get(pk=identifier)
+            audiobook= AudioBook.objects.get(pk=identifier)
         except AudioBook.DoesNotExist:
             return Response({"message": "AudioBook does not exist"}, status=status.HTTP_404_NOT_FOUND)
 
@@ -157,18 +158,22 @@ def retrieve_file(request, file=None, identifier=None):
         serializer = PodCastSerializer(podcast, many=many)
         return Response(serializer.data, status=status.HTTP_200_OK)
     if file == "AudioBook":
+
         if not identifier:
             audiobook = AudioBook.objects.all()
             many = True
 
         else:
             try:
+
                 audiobook = AudioBook.objects.get(pk=identifier)
                 many = False
             except AudioBook.DoesNotExist:
+
                 return Response({"message": "Audiobook does not exist"}, status=status.HTTP_404_NOT_FOUND)
 
         serializer = AudioBookSerializer(audiobook, many=many)
+
         return Response(serializer.data, status=status.HTTP_200_OK)
     if not file:
         filters = {}
